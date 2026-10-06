@@ -1,5 +1,5 @@
-name = input("Enter your name: ")
-num_of_times = eval(input("Enter number of times to print: "))
+height = int(input("Enter height: "))
+width = int(input("Enter width: "))
 
-for i in range(num_of_times):
-    print(name)
+for i in range(height):
+    print('*'*width)
