@@ -1,16 +1,5 @@
-for i in range(11):
-    print("A", end="")
+name = input("Enter your name: ")
+num_of_times = eval(input("Enter number of times to print: "))
 
-for i in range(8):
-    print("B", end="")
-
-for i in range(5):
-    print("C", end="")
-    print("D", end="")
-
-print("E")
-
-for i in range(7):
-    print("F", end="")
-
-print("G")
+for i in range(num_of_times):
+    print(name)
